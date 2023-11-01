@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JO</title>
+        <style>
+            header{background-color: grey;text-align:center;padding: 2rem 0;position: relative;font-size: 35px;}
+            .container1 .image1{width: 100px;height: 100px;border-radius: 75%;object-fit: cover;top: 15%;left:5%;position: relative;}
+            .container2{font-size: x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        </style>
+    </head>
+    <body>
+        <header>VIVLIYA</header><br>
+        <div class="container1">
+            <img src="joo.jpg" class="image1">
+        </div>
+        <div class="container2">
+        <a href="home.html" target="rightside">Home</a><br><br>
+        <a href="interests.html" target="rightside">Interests</a><br><br>
+        <a href="education.html" target="rightside">Education</a><br><br><br>
+        </div>
+        <input type="text" id="name" placeholder="Your Name please" style="font-size:large">
+        <button style="font-size:large;" onclick="greet()">Submit</button>
+        <script>
+            function greet(){var name = document.getElementById("name").value;
+        alert("Hello" +name+"!!! "+ " "+"Thank you for visiting my site");}
+        </script>
+    </body>
+</html>
